@@ -1,0 +1,17 @@
+1. https://github.com/kluedemann/cmput404-lab1
+2. 2.31.0 - It was already installed
+3. Yes. The version is 2.31.0
+4. The virtual environment can contain packages that are independent of those installed in the default python.
+This allows us to have separate workspaces. When the environment is activated, we can use the packages that are installed in it.
+5. 301 Moved Permanently. We need to visit http://www.google.com to get a 200 status code.
+6. 301 Moved Permanently. This is the status code for -i. 
+Using -iL redirects us to https://www.google.com/teapot and returns status code 418.
+Using curl on http://www.google.com/teapot returns the Google teapot page with status code 418 I'm a Teapot.
+7. The new output includes HTML form data that we sent using POST. There are multiple differences:
+    a. The timestamp is newer.
+    b. There is a MiniFieldStorage mapping 'X' to 'Y'
+    c. There is url form content of length 3.
+    d. The request type is POST and uses a different port number.
+    e. The unique ID is different.
+The POST request is useful for sending data.
+8. https://raw.githubusercontent.com/kluedemann/cmput404-lab1/main/lab1_script.py
